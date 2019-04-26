@@ -1,10 +1,17 @@
 package com.infotel.TpNote26AvrilGLechevretel.Metier;
 
+import org.springframework.stereotype.Component;
+
+@Component
+
+
 public class Etudiant {
 	private int idEtudiant;
 	private String nom;
 	private String prenom;
 	private Formation formation;
+	
+	
 	public int getIdEtudiant() {
 		return idEtudiant;
 	}

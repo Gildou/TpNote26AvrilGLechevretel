@@ -1,5 +1,9 @@
 package com.infotel.TpNote26AvrilGLechevretel.Metier;
 
+import org.springframework.stereotype.Component;
+
+@Component
+
 public class Dev {
 	private int idDev;
 	private String nom;

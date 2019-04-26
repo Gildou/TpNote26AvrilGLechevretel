@@ -1,5 +1,10 @@
 package com.infotel.TpNote26AvrilGLechevretel.Metier;
 
+import org.springframework.stereotype.Component;
+
+@Component
+
+
 public class DevLogiciel {
 	private Dev developpeur;
 	private Dev chefDeveloppeur;
